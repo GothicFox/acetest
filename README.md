@@ -1,0 +1,2 @@
+# acetest
+vcpkg test
