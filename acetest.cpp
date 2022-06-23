@@ -4,7 +4,7 @@
 
 int getVersion()
 {
-  return 2;
+  return 3;
 }
 
 void printVersion()
