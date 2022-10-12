@@ -2,5 +2,5 @@
 
 #define ACETEST_VERSION 3
 
-extern int getVersion();
-extern void printVersion();
+extern __declspec(dllexport) int getVersion();
+extern __declspec(dllexport) void printVersion();
