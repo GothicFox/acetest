@@ -27,9 +27,9 @@ set_target_properties(${PROJECT_NAME} PROPERTIES PUBLIC_HEADER "${HEADERS}")
 # Install the target and create export-set
 install(TARGETS ${PROJECT_NAME}
         EXPORT ${PROJECT_NAME}Targets
-        LIBRARY DESTINATION lib
-        ARCHIVE DESTINATION lib
-        RUNTIME DESTINATION bin
+        LIBRARY DESTINATION debug/lib
+        ARCHIVE DESTINATION debug/lib
+        RUNTIME DESTINATION debug/bin
         PUBLIC_HEADER DESTINATION include)
 
 # Generate the version file for the config file
