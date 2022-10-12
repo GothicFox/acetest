@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-
+set(CMAKE_BUILD_TYPE Release)
 set(PROJECT_NAME "acetest")
 message("PROJECT_NAME: ${PROJECT_NAME}")
 project(${PROJECT_NAME} VERSION 1.0.0)
